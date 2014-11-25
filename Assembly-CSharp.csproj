@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{8B7CD8E5-8848-3FF1-335D-D84E94E09607}</ProjectGuid>
+	<ProjectGuid>{913CE864-30E1-9E11-7D60-B26AD468C386}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -47,6 +47,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\HumanBody\Resources\Prefabs\Screens\HumanBody_GameScreen\Topics\Body\Nose\Question3\testLeanTween.cs" />
+     <Compile Include="Assets\HumanBody\Resources\Prefabs\Screens\HumanBody_GameScreen\Topics\Organs\Brain\ClippingAnimator.cs" />
+     <Compile Include="Assets\HumanBody\Resources\Prefabs\Screens\HumanBody_GameScreen\Topics\Organs\DigestiveSystem\movePoint1.cs" />
+     <Compile Include="Assets\HumanBody\Resources\Prefabs\Screens\HumanBody_GameScreen\Topics\Reproduction\tk2dAlphaAnimator.cs" />
      <Compile Include="Assets\LeanTweenEditor\Examples\Scripts\LTPathExampleCircleCS.cs" />
      <Compile Include="Assets\LeanTweenEditor\Examples\Scripts\LTPathExampleIterateCS.cs" />
      <Compile Include="Assets\LeanTweenEditor\Examples\Scripts\LTPathExampleMissilesCS.cs" />
@@ -56,7 +59,6 @@
      <Compile Include="Assets\LeanTweenEditor\LeanTweenVisual.cs" />
      <Compile Include="Assets\Scripts\ChildSpriteAnimator.cs" />
      <Compile Include="Assets\Scripts\SpriteAnimator.cs" />
-     <Compile Include="Assets\Scripts\tk2dAlphaAnimator.cs" />
      <Compile Include="Assets\TK2DROOT\tk2d\Code\Camera\tk2dCamera.cs" />
      <Compile Include="Assets\TK2DROOT\tk2d\Code\Camera\tk2dCameraAnchor.cs" />
      <Compile Include="Assets\TK2DROOT\tk2d\Code\Camera\tk2dCameraUtil.cs" />
@@ -164,7 +166,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{0315FB5D-879E-8057-6246-F98DA7E4992F}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{9487B5C2-58B6-7853-F9C2-35AF3204C837}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

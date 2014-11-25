@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{700952D2-628A-3979-5608-65BA42A4B70B}</ProjectGuid>
+	<ProjectGuid>{7A4993BF-2357-EAA0-1C22-D730262C7524}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -163,13 +163,13 @@
      <None Include="Assets\TK2DROOT\tk2d\Shaders\AdditiveVertexColor.shader" />
      <None Include="Assets\TK2DROOT\tk2d_demo\democameradata\source\democamerafont.fnt" />
  <Reference Include="Assembly-UnityScript">
- <HintPath>/Volumes/External 1/HumanBody_Unity/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
- </Reference>
- <Reference Include="tk2dSkin">
- <HintPath>/Volumes/External 1/HumanBody_Unity/Assets/TK2DROOT/tk2d/Editor/tk2dSkin.dll</HintPath>
+ <HintPath>/Users/nhatnd/HumanBody_Unity1/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="tk2dExternal">
- <HintPath>/Volumes/External 1/HumanBody_Unity/Assets/TK2DROOT/tk2d/Editor/tk2dExternal.dll</HintPath>
+ <HintPath>/Users/nhatnd/HumanBody_Unity1/Assets/TK2DROOT/tk2d/Editor/tk2dExternal.dll</HintPath>
+ </Reference>
+ <Reference Include="tk2dSkin">
+ <HintPath>/Users/nhatnd/HumanBody_Unity1/Assets/TK2DROOT/tk2d/Editor/tk2dSkin.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -177,9 +177,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{0315FB5D-879E-8057-6246-F98DA7E4992F}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+      <Project>{9487B5C2-58B6-7853-F9C2-35AF3204C837}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp-vs.csproj">
-      <Project>{8B7CD8E5-8848-3FF1-335D-D84E94E09607}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+      <Project>{913CE864-30E1-9E11-7D60-B26AD468C386}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
